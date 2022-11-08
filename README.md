@@ -1,4 +1,8 @@
-# big_data_web_scraping
+# Big data from web scraping
+
+Welcome to my GitHub Repository. This is where you can see the project which has been organized for collecting data and being presented as charts with cutting-edge technologies at the moment.
+
+Given that the Data Science covers many topics about how to handle data and beside its is a multi-disciplinary profession. I will be posting my progress, no only full projects, but projects that tackle vaious aspects of the Data Science pipeline.
 
 ## 1 Toolkit
 A diagram that shows the development enviroment with a toolkit as proposal.
