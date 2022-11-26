@@ -23,7 +23,7 @@ At this picture is ilustrated the process troughout how the files will be collec
 
 ![2 Pipeline for crawling](https://user-images.githubusercontent.com/23003922/197236447-821a2283-a365-4a03-9176-512f5eb91e1e.png)
 
-## 4 Arquitecture of component cesign 
+## 4 Arquitecture of component design 
 Here are presented three componentes throghourt data collect software cycle with Scrapy. Given the URL target, this is followed to find common and media files to store in AWS services such as DynamoDB for structured data (key-value) and S3 Bucket for pure documents. Also, it is shown two helping components for specific purpose. Once the data is retrieved they are ploted on tableu; wheremore, Selenium componen contain tools for clicking on dynamic JS events to download valid links of files.
 
 ![3 Arquitecture app drawio](https://user-images.githubusercontent.com/23003922/204070509-1856bca9-f38c-4733-99c5-af7b92962b8c.png)
