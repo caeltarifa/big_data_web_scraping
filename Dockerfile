@@ -38,6 +38,9 @@ RUN wget -N https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux6
     && rm /tmp/chromedriver_linux64.zip \
     && chmod +x /usr/local/bin/chromedriver
 
+## Install Jupyter server
+RUN pip install jupyterlab
+
 EXPOSE 8989
 
 ######## REFERENCES ########
