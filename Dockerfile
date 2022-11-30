@@ -41,7 +41,6 @@ RUN wget -N https://chromedriver.storage.googleapis.com/108.0.5359.22/chromedriv
     && chmod +x /usr/local/bin/chromedriver
 #RUN apt install chromium-chromedriver
 
-
 ## Install Jupyter server
 RUN pip install jupyterlab
 
