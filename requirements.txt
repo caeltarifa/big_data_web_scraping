@@ -1,1 +1,8 @@
+selenium
 scrapy
+requests
+bs4
+pandas
+numpy
+botocore
+boto3
