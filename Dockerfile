@@ -8,7 +8,14 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN useradd -rm -d /home/webscraper -s /bin/bash -g root -G sudo -u 1001 webscraper
+ARG user=webscraper
+ARG home=/home/$user
+RUN adduser \
+    --disabled-password \
+    --gecos "" \
+    --home $home \
+    --ingroup root \
+    $user
 
 ######## Setting up the python environment as virtual environment ########
 RUN python3 -m venv /opt/venv
