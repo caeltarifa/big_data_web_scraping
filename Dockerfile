@@ -1,6 +1,6 @@
 # Building container with tools for web scraping project: scrapy, python3, pip3, git, selenium, chrome driver, aws s3, aws dynamodb
 
-######## Using the latest and LTS version of Debian ########
+######## Using the latest and LTS version of Debian and adding user ########
 FROM debian:stable AS builder-image
 
 RUN apt-get update && \ 
@@ -8,7 +8,9 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-######## Setting up the python environment as virtual environment and activating it ########
+RUN useradd -rm -d /home/webscraper -s /bin/bash -g root -G sudo -u 1001 webscraper
+
+######## Setting up the python environment as virtual environment ########
 RUN python3 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
@@ -43,6 +45,12 @@ RUN wget -N https://chromedriver.storage.googleapis.com/108.0.5359.22/chromedriv
 
 ## Install Jupyter server
 RUN pip install jupyterlab
+
+
+######## Activating the user system ########
+USER webscraper
+WORKDIR /home/webscraper
+
 
 EXPOSE 8989
 
