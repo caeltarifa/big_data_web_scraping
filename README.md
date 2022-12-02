@@ -3,7 +3,7 @@
 On this project repository. This is where you can see the project which has been organized for collecting data as much as large scale system and being presented as charts with cutting-edge technologies at the moment.
 
 Given that the Data Science covers many topics about how to handle data and beside its is a multi-disciplinary profession. I will be posting my progress, no only full projects, but projects that tackle vaious aspects of the Data Science pipeline.
-## 1 Requiremnts
+## 1 Requirements
 Once the lybraries needed to extract data are satisfied by below, the project could be built up:
 ````
 pip install scrapy
