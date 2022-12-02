@@ -60,7 +60,6 @@ RUN pip install jupyterlab
 USER root
 WORKDIR /media
 
-
 EXPOSE 8989
 
 ######## REFERENCES ########
