@@ -4,7 +4,7 @@ On this project you see python modules which has been organized for collecting d
 
 Given the Data Science, it covers many topics about how to handle data and beside its, is a multi-disciplinary subject. highlighted updates will be posting, and every step to be executed is following the DataPipeline proposed. 
 
-Not all techniques are being develated here, but the most useful are for ilustrate concepts and tools which Biosoft exploits with.
+Not all techniques are being develated here, but the most useful are for ilustrating concepts and tools which Biosoft exploits with.
 
 ## 1 Requirements
 Once the lybraries needed to extract data are satisfied by below, the project could be built up:
