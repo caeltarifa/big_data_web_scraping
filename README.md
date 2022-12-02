@@ -1,8 +1,11 @@
 # Big data by web scraping with scrapy
 
-On this project. This is where you can see the project which has been organized for collecting data as much as large scale system and being presented as charts with cutting-edge technologies at the moment.
+On this project you see python modules which has been organized for collecting data as much as large scale system and being presented as charts with cutting-edge technologies at the moment.
 
-Given that the Data Science covers many topics about how to handle data and beside its is a multi-disciplinary profession. I will be posting my progress, no only full projects, but projects that tackle vaious aspects of the Data Science pipeline.
+Given the Data Science, it covers many topics about how to handle data and beside its, is a multi-disciplinary subject. I will be posting highlighted updates, and ever step to be executed is following the DataPipeline proposed. 
+
+Not all techinques are being develated here, but the most useful are for ilustrate concepts and tools which Biosoft exploits with.
+
 ## 1 Requirements
 Once the lybraries needed to extract data are satisfied by below, the project could be built up:
 ````
