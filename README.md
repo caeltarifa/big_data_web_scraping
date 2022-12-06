@@ -39,3 +39,9 @@ At this picture is ilustrated the process troughout how the files will be collec
 Here are presented three componentes throghourt data collect software cycle with Scrapy. Given the URL target, this is followed to find common and media files to store in AWS services such as DynamoDB for structured data (key-value) and S3 Bucket for pure documents. Also, it is shown two helping components for specific purpose. Once the data is retrieved they are ploted on tableu; wheremore, Selenium componen contain tools for clicking on dynamic JS events to download valid links of files.
 
 ![3 Arquitecture app drawio](https://user-images.githubusercontent.com/23003922/204070509-1856bca9-f38c-4733-99c5-af7b92962b8c.png)
+
+## 5 Storing
+### A. Bitbucket Amazon S3
+In the picture below is show how the files are fullfilled in Amazon's bitbuckets at distributed cloud storage. This data storing is pure document database which each one has been retrieved by web scraping over differents Chile's web sites.
+
+![bitbucket s3 aws](https://user-images.githubusercontent.com/23003922/205807725-fb61a428-e1ce-4938-9db4-d3d620762562.jpeg)
