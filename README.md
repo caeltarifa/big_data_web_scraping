@@ -42,6 +42,6 @@ Here are presented three componentes throghourt data collect software cycle with
 
 ## 5 Storing
 ### A. Bitbucket Amazon S3
-In the picture below is show how the files are fullfilled in Amazon's bitbuckets at distributed cloud storage. This data storing is pure document database which each one has been retrieved by web scraping over differents Chile's web sites.
+In the picture below is shown how the files are filled at distributed cloud storage by Amazon's bitbuckets. by web scraping over differents Chile's web sites this data storing is pure document database which each one has been retrieved of a variety of formats either PDF, CSV, XLS, Stata, and more.
 
 ![bitbucket s3 aws](https://user-images.githubusercontent.com/23003922/205807725-fb61a428-e1ce-4938-9db4-d3d620762562.jpeg)
