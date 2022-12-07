@@ -87,3 +87,9 @@ In the picture below is shown how the files are filled at distributed cloud stor
 *   [A one size fits all database doesn't fit anyone](https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html)
 *   [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 *   [Scaling globally with the new AWS](https://www.allthingsdistributed.com/2022/08/aws-launches-middle-east-uae-region.html)
+
+> Big Data and Data flow design: Apache NiFi & DynamoDB
+*   [Processor: GetDynamoDB](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.GetDynamoDB/index.html)
+*   [Processor: PutDynamoDB](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.PutDynamoDB/index.html)
+*   [Processor: PutDynamoDBRecord](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.PutDynamoDBRecord/index.html)
+*   [Processor: DeleteDynamoDB](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.DeleteDynamoDB/index.html)
