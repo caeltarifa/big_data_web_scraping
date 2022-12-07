@@ -33,6 +33,10 @@ A diagram that shows the development enviroment with a toolkit as proposal.
 At this picture is ilustrated the process troughout how the files will be collected and storing for each provided URL.
 
 ![2 DataPipeline](https://user-images.githubusercontent.com/23003922/206234826-1fd85978-ef7e-4eb3-a94e-26a02778e4e3.png)
+### 4.1 Technology Stack
+Communicating components through processes into data flow design from scanning the website, mining data to collect and ingest, processing up to the storing and plot are declared within this technology stack in order to be reliable and workable.
+
+![TechnologyStack](https://user-images.githubusercontent.com/23003922/206237190-824611d6-b8fd-4a9e-b8e1-baa1e95216a0.png)
 
 ## 5 Arquitecture of component design 
 Here are presented three componentes throghourt data collect software cycle with Scrapy. Given the URL target, this is followed to find common and media files to store in AWS services such as DynamoDB for structured data (key-value) and S3 Bucket for pure documents. Also, it is shown two helping components for specific purpose. Once the data is retrieved they are ploted on tableu; wheremore, Selenium componen contain tools for clicking on dynamic JS events to download valid links of files.
