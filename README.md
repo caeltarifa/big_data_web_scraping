@@ -36,8 +36,7 @@ At this picture is ilustrated the process troughout how the files will be collec
 ### 4.1 Technology Stack
 Communicating components through processes into data flow design from scanning the website, mining data to collect and ingest, processing up to the storing and plot are declared within this technology stack in order to be reliable and workable.
 
-![TechnologyStack](https://user-images.githubusercontent.com/23003922/206237190-824611d6-b8fd-4a9e-b8e1-baa1e95216a0.png)
-
+![TechnologyStack](https://user-images.githubusercontent.com/23003922/206239767-c9e50cdc-fdc2-4008-8a8b-289ee2f29273.png)
 ## 5 Arquitecture of component design 
 Here are presented three componentes throghourt data collect software cycle with Scrapy. Given the URL target, this is followed to find common and media files to store in AWS services such as DynamoDB for structured data (key-value) and S3 Bucket for pure documents. Also, it is shown two helping components for specific purpose. Once the data is retrieved they are ploted on tableu; wheremore, Selenium componen contain tools for clicking on dynamic JS events to download valid links of files.
 
