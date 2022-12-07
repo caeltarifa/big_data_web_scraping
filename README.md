@@ -32,8 +32,7 @@ A diagram that shows the development enviroment with a toolkit as proposal.
 ## 4 DataPipeline for scraping
 At this picture is ilustrated the process troughout how the files will be collected and storing for each provided URL.
 
-![2 DataPipeline](https://user-images.githubusercontent.com/23003922/205421639-905f75b3-c8f0-4231-9f1f-40c9657ac924.png)
-
+![2 DataPipeline](https://user-images.githubusercontent.com/23003922/206234826-1fd85978-ef7e-4eb3-a94e-26a02778e4e3.png)
 
 ## 5 Arquitecture of component design 
 Here are presented three componentes throghourt data collect software cycle with Scrapy. Given the URL target, this is followed to find common and media files to store in AWS services such as DynamoDB for structured data (key-value) and S3 Bucket for pure documents. Also, it is shown two helping components for specific purpose. Once the data is retrieved they are ploted on tableu; wheremore, Selenium componen contain tools for clicking on dynamic JS events to download valid links of files.
