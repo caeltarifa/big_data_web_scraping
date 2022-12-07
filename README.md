@@ -45,3 +45,45 @@ Here are presented three componentes throghourt data collect software cycle with
 In the picture below is shown how the files are filled at distributed cloud storage by Amazon's bitbuckets. By web scraping over differents Chile's web sites this data storing is pure document database which each one has been retrieved of a variety of formats either PDF, CSV, XLS, Stata, and more.
 
 ![bitbucket s3 aws](https://user-images.githubusercontent.com/23003922/205807725-fb61a428-e1ce-4938-9db4-d3d620762562.jpeg)
+
+
+## References
+
+> BeautifulSoup: Interfaces for reliable connections to url as target.
+*   [DynamoDB and the AWS SDKs](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html)
+*   [Boto3 and Amazon DynamoDB](https://www.section.io/engineering-education/python-boto3-and-amazon-dynamodb-programming-tutorial/)
+*   [DynamoDb in Python using BOTO3](https://www.analyticsvidhya.com/blog/2022/05/working-with-dynamodb-in-python-using-boto3/)
+
+> Scrapy 
+* [Google Colab tips: using both %%writefile magic and %%javascript magic in the same cell](https://stephencowchau.medium.com/google-colab-tips-using-both-writefile-magic-and-javascript-magic-in-the-same-cell-7820e508e455)
+* [Scrapy - User Agents and Proxies](https://scrapeops.io/python-scrapy-playbook/scrapy-beginners-guide-user-agents-proxies/)
+* [Scrapy - LinkExtractors](https://www.tutorialspoint.com/scrapy/scrapy_link_extractors.htm)
+* [Scrapy - LinkExtractors - GitHub's Documentation](https://github.com/scrapy/scrapy/blob/master/docs/topics/link-extractors.rst)
+
+> Selenium
+*   [Selenium webdriver in colab](https://blog.devgenius.io/use-selenium-webdriver-in-google-colab-d5f2dba1d9f5)
+*   [Selenium - Navigation](https://selenium-python.readthedocs.io/navigating.html?highlight=driver.find_element#drag-and-drop)
+
+> Xpath
+* [Parsing HTML with Xpath](https://scrapfly.io/blog/parsing-html-with-xpath/)
+* [Scrapy - User Agents and Proxies](https://scrapeops.io/python-scrapy-playbook/scrapy-beginners-guide-user-agents-proxies/)
+* [XPath tester](https://extendsclass.com/xpath-tester.html)
+*   [XPath tester codebeautify](https://codebeautify.org/Xpath-Tester)
+*   [Xpath for python: is xpath underappreciated?](https://towardsdatascience.com/xpath-for-python-89f4423415e0)
+*   [Xpath examples](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms256086(v=vs.100)?redirectedfrom=MSDN)
+
+> Regular expressions (RegEx)
+*   [Regular-expressions](https://www.regular-expressions.info/tutorial.html)
+*   [Python RegEx](https://www.w3schools.com/python/python_regex.asp)
+*   [Regex Tester by language programming](https://regex101.com/r/vY6lJ4/1)
+*   [Never use RegEx for web scraping](https://www.youtube.com/watch?v=z_cdzgrjERQ)
+
+> Storing data in the cloud (AWS)
+*   [AWS S3 bucket](https://docs.scrapy.org/en/latest/topics/feed-exports.html?highlight=aws#s3)
+*   [Scrapy - Scrape Images into AWS S3](https://www.youtube.com/watch?v=CmIsvAYU-yk)
+*   [How to add DataBase to Scrapy project](https://www.youtube.com/watch?v=cw5QtDxwTIQ)
+
+> DynamoDB and its purposes (AWS)
+*   [A one size fits all database doesn't fit anyone](https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html)
+*   [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+*   [Scaling globally with the new AWS](https://www.allthingsdistributed.com/2022/08/aws-launches-middle-east-uae-region.html)
