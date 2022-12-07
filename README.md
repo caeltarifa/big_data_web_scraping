@@ -95,3 +95,7 @@ In the picture below is shown how the files are filled at distributed cloud stor
 *   [Processor: PutDynamoDB](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.PutDynamoDB/index.html)
 *   [Processor: PutDynamoDBRecord](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.PutDynamoDBRecord/index.html)
 *   [Processor: DeleteDynamoDB](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.DeleteDynamoDB/index.html)
+*   [How to Use Pyspark For Your Machine Learning Project](https://towardsdatascience.com/how-to-use-pyspark-for-your-machine-learning-project-19aa138e96ec)
+*   [Difference Between Big Data and Data Mining](https://www.geeksforgeeks.org/difference-between-big-data-and-data-mining/#:~:text=Big%20Data%20is%20a%20technique,close%20view%20of%20the%20data.)
+*   [Web Scraing with NiFi and Scrapy via ExecuteProcess processor](https://community.cloudera.com/t5/Community-Articles/Web-scraping-with-NiFi-and-Scrapy-via-the-ExecuteProcess/ta-p/246828)
+*   [Building Data Lake using Apache NiFi | The Complete Guide](https://www.xenonstack.com/blog/data-lake-services)
