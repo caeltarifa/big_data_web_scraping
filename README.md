@@ -99,3 +99,6 @@ In the picture below is shown how the files are filled at distributed cloud stor
 *   [Difference Between Big Data and Data Mining](https://www.geeksforgeeks.org/difference-between-big-data-and-data-mining/#:~:text=Big%20Data%20is%20a%20technique,close%20view%20of%20the%20data.)
 *   [Web Scraing with NiFi and Scrapy via ExecuteProcess processor](https://community.cloudera.com/t5/Community-Articles/Web-scraping-with-NiFi-and-Scrapy-via-the-ExecuteProcess/ta-p/246828)
 *   [Building Data Lake using Apache NiFi | The Complete Guide](https://www.xenonstack.com/blog/data-lake-services)
+
+> NoSQL Databases and Graph queries
+*   [Extracting Data from NoSQL Databases - Master of Science Thesis](https://publications.lib.chalmers.se/records/fulltext/155048.pdf)
