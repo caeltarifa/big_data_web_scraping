@@ -33,6 +33,10 @@ class selenium_scrapy:
 
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
 
+        ########## from class_selenium_xpath import selenium_scrapy
+        ########## obj = selenium_scrapy()
+        ########## obj.click_exploring_ine(url)
+
         return driver
     
     def pagesource(self,url):

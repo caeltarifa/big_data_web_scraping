@@ -112,8 +112,9 @@ DOWNLOAD_FAIL_ON_DATALOSS = True
 MEDIA_ALLOW_REDIRECTS = True
 
 ITEM_PIPELINES = {
-    'big_data_webscraping.pipelines.DynamoDBPipeline': 200,
-    'big_data_webscraping.pipelines.BigDataWebscrapingPipeline': 300,
+    'big_data_webscraping.pipelines.DynamoDbPipeline': 1,
+    #'big_data_webscraping.pipelines.DynamoDBPipeline': 200,
+    #'big_data_webscraping.pipelines.BigDataWebscrapingPipeline': 300,
     #'scrapy.pipelines.files.FilesPipeline': 1,
 }
 
@@ -121,5 +122,9 @@ ITEM_PIPELINES = {
 
 #FILES_STORE = r"/content/ine_cl"
 #   FILES_STORE = 's3://biosoft-collection/' #'s3:::biosoft-collection'   
-AWS_ACCESS_KEY_ID = 'AKIAWW7FAEADFAFDASFCAEL '
-AWS_SECRET_ACCESS_KEY= 'GrsKpwB6KwVtdAdsgsgfdsffgdfsTKgb1BLQ7oMpKQ1mlfYggcael'
+
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY= ''
+
+DYNAMODB_PIPELINE_REGION_NAME = 'us-east-1'
+DYNAMODB_PIPELINE_TABLE_NAME = 'big_data_webscraping'
