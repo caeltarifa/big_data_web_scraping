@@ -112,6 +112,7 @@ DOWNLOAD_FAIL_ON_DATALOSS = True
 MEDIA_ALLOW_REDIRECTS = True
 
 ITEM_PIPELINES = {
+    'big_data_webscraping.pipelines.DynamoDBPipeline': 200,
     'big_data_webscraping.pipelines.BigDataWebscrapingPipeline': 300,
     #'scrapy.pipelines.files.FilesPipeline': 1,
 }
@@ -120,5 +121,5 @@ ITEM_PIPELINES = {
 
 #FILES_STORE = r"/content/ine_cl"
 #   FILES_STORE = 's3://biosoft-collection/' #'s3:::biosoft-collection'   
-#   AWS_ACCESS_KEY_ID = 'AKIAWW7FAEADFAFDASFCAEL '
-#   AWS_SECRET_ACCESS_KEY= 'GrsKpwB6KwVtdAdsgsgfdsffgdfsTKgb1BLQ7oMpKQ1mlfYggcael'
+AWS_ACCESS_KEY_ID = 'AKIAWW7FAEADFAFDASFCAEL '
+AWS_SECRET_ACCESS_KEY= 'GrsKpwB6KwVtdAdsgsgfdsffgdfsTKgb1BLQ7oMpKQ1mlfYggcael'

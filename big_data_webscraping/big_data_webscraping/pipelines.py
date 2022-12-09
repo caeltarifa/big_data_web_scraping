@@ -1,4 +1,5 @@
 import hashlib
+import boto3
 from scrapy.pipelines.files import FilesPipeline
   
 class BigDataWebscrapingPipeline(FilesPipeline):
@@ -12,3 +13,15 @@ class BigDataWebscrapingPipeline(FilesPipeline):
         file_name: str = f'{doc_url_hash}_{domain}_{doc_perspective}'
 
         return file_name
+class DynamoDBPipeline(object):
+    def __init__(self):
+        self.dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
+        self.table = self.dynamodb.Table('big_data_webscraping')
+
+    def process_item(self, item):
+        self.table.put_item(
+            Item = dict(
+                item
+                )
+        )
+        return item
