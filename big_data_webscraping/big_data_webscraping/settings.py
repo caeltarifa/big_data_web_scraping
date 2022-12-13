@@ -93,11 +93,7 @@ TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
 
 
 
-
-
-#ITEM_PIPELINES = {
-#  'scrapy.pipelines.files.FilesPipeline': 1,
-#}
+############################################ DATA STORAGE ############################################
 
 FILES_URLS_FIELD = 'file_urls'
 FILES_RESULT_FIELD = 'files'
@@ -128,3 +124,8 @@ AWS_SECRET_ACCESS_KEY= ''
 
 DYNAMODB_PIPELINE_REGION_NAME = 'us-east-1'
 DYNAMODB_PIPELINE_TABLE_NAME = 'big_data_webscraping'
+
+############################################ IN ORDER TO CONNECT WITH "NIFI" SERVICE, IT IS SET UP
+FEED_FORMAT = 'jsonlines'
+FEED_URI = 'stdout:'
+LOG_LEVEL = 'ERROR'
