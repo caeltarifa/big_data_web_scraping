@@ -9,11 +9,27 @@ Not all techniques are being develated here, but the most useful are for ilustra
 ## 1 Requirements
 Once the libraries needed to extract data are satisfied, below could be built up the project:
 ````
-pip install scrapy
-pip install botocore
+Scrapy
+selenium
+boto3
+botocore
 
-pip install selenium
-apt install chromium-chromedriver
+requests
+urllib3
+bs4
+
+pandas
+numpy
+scipy
+matplotlib
+scikit-
+
+jupyter-server
+jupyter_client
+jupyter_core
+jupyterlab
+jupyterlab-pygments
+jupyterlab_server
 ````
 
 ## 2 How to install
