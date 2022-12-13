@@ -7,7 +7,7 @@ Given the Data Science, it covers many topics about how to handle data and besid
 Not all techniques are being develated here, but the most useful are for ilustrating concepts and tools which Biosoft exploits with.
 
 ## 1 Requirements
-Once the lybraries needed to extract data are satisfied by below, the project could be built up:
+Once the libraries needed to extract data are satisfied, below could be built up the project:
 ````
 pip install scrapy
 pip install botocore
