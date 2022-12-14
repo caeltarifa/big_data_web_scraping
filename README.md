@@ -101,6 +101,10 @@ In the picture below is shown how the files are filled at distributed cloud stor
 *   [Scrapy - Scrape Images into AWS S3](https://www.youtube.com/watch?v=CmIsvAYU-yk)
 *   [How to add DataBase to Scrapy project](https://www.youtube.com/watch?v=cw5QtDxwTIQ)
 
+> Tableau - Data Visualization
+*   [How to Get Access to Amazon S3 Data Directly from Tableau](https://www.tableau.com/blog/how-get-access-amazon-s3-data-directly-tableau)
+*   [Tableau S3 Connection](https://hevodata.com/learn/tableau-s3/)
+
 > DynamoDB and its purposes (AWS)
 *   [A one size fits all database doesn't fit anyone](https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html)
 *   [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
