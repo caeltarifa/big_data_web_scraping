@@ -106,7 +106,7 @@ In the picture below is shown how the files are filled at distributed cloud stor
 *   [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 *   [Scaling globally with the new AWS](https://www.allthingsdistributed.com/2022/08/aws-launches-middle-east-uae-region.html)
 
-> Big Data and Data flow design: Apache NiFi & DynamoDB
+> Big Data and Data flow design: Apache NiFi
 *   [Processor: GetDynamoDB](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.GetDynamoDB/index.html)
 *   [Processor: PutDynamoDB](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.PutDynamoDB/index.html)
 *   [Processor: PutDynamoDBRecord](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-aws-nar/1.19.0/org.apache.nifi.processors.aws.dynamodb.PutDynamoDBRecord/index.html)
@@ -115,6 +115,6 @@ In the picture below is shown how the files are filled at distributed cloud stor
 *   [Difference Between Big Data and Data Mining](https://www.geeksforgeeks.org/difference-between-big-data-and-data-mining/#:~:text=Big%20Data%20is%20a%20technique,close%20view%20of%20the%20data.)
 *   [Web Scraing with NiFi and Scrapy via ExecuteProcess processor](https://community.cloudera.com/t5/Community-Articles/Web-scraping-with-NiFi-and-Scrapy-via-the-ExecuteProcess/ta-p/246828)
 *   [Building Data Lake using Apache NiFi | The Complete Guide](https://www.xenonstack.com/blog/data-lake-services)
-
+*   [Docker image | Apache NiFi](https://github.com/apache/nifi/tree/main/nifi-docker/dockerhub)
 > NoSQL Databases and Graph queries
 *   [Extracting Data from NoSQL Databases - Master of Science Thesis](https://publications.lib.chalmers.se/records/fulltext/155048.pdf)
